@@ -68,7 +68,7 @@ view2.clj (susing App)
 
 (defn root []
   [:div
-   [:f> init-antd-api]
+   [ad/app [:f> init-antd-api]]
    [ad/button {:on-click (fn [_] (util/message-info "Hello, clojurescript!"))} "click me"]])
 ```
 
