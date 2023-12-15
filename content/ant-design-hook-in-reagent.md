@@ -68,7 +68,9 @@ view2.clj (susing App)
 
 (defn root []
   [:div
-   [ad/app [:f> init-antd-api]]
+   ; config message and notification on App
+   [ad/app {:message {:maxCount 1 :top 56} :notification {}}
+     [:f> init-antd-api]]
    [ad/button {:on-click (fn [_] (util/message-info "Hello, clojurescript!"))} "click me"]])
 ```
 
