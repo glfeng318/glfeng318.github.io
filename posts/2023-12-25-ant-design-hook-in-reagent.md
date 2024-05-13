@@ -1,3 +1,8 @@
+layout: post
+title: "ant design hook in reagent"
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: clojure ant-design reagent react
+
 {% raw %}
 # ant design hook in reagent
 
